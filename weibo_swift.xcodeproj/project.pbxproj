@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BEC6F881CC1C9B6000E4A9F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC6F871CC1C9B6000E4A9F /* BaseVC.swift */; };
+		6BEC6F8A1CC1E1F0000E4A9F /* UnLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC6F891CC1E1F0000E4A9F /* UnLoginView.swift */; };
+		6BEC6F8C1CC1E1FE000E4A9F /* UnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BEC6F8B1CC1E1FE000E4A9F /* UnLoginView.xib */; };
 		D2856911BFD1C26E0779C6D4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B29EB32ADFC2164A19369E48 /* libPods.a */; };
+		F8230D9C1CC0E9F800C2FAD2 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8230D9B1CC0E9F800C2FAD2 /* NullViewController.swift */; };
 		F82F955E1CBE3CD600857481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82F955D1CBE3CD600857481 /* AppDelegate.swift */; };
 		F82F95661CBE3CD600857481 /* weibo_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F82F95641CBE3CD600857481 /* weibo_swift.xcdatamodeld */; };
 		F82F95681CBE3CD600857481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82F95671CBE3CD600857481 /* Assets.xcassets */; };
@@ -47,7 +51,11 @@
 /* Begin PBXFileReference section */
 		309CA01CD524C3BA952D2284 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAD0624518A63B3F4D27436 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6BEC6F871CC1C9B6000E4A9F /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		6BEC6F891CC1E1F0000E4A9F /* UnLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLoginView.swift; sourceTree = "<group>"; };
+		6BEC6F8B1CC1E1FE000E4A9F /* UnLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnLoginView.xib; sourceTree = "<group>"; };
 		B29EB32ADFC2164A19369E48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8230D9B1CC0E9F800C2FAD2 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		F82F955A1CBE3CD600857481 /* weibo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82F955D1CBE3CD600857481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F82F95651CBE3CD600857481 /* weibo_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weibo_swift.xcdatamodel; sourceTree = "<group>"; };
@@ -262,6 +270,9 @@
 				F82F95C21CBE4DAE00857481 /* Resource */,
 				F82F95A51CBE429700857481 /* MainTabBarVC.swift */,
 				F82F95C01CBE447500857481 /* MainNavigationVC.swift */,
+				6BEC6F871CC1C9B6000E4A9F /* BaseVC.swift */,
+				6BEC6F891CC1E1F0000E4A9F /* UnLoginView.swift */,
+				6BEC6F8B1CC1E1FE000E4A9F /* UnLoginView.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -343,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				F82F95C31CBE4DAE00857481 /* MainVCSettings.json */,
+				F8230D9B1CC0E9F800C2FAD2 /* NullViewController.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -461,6 +473,7 @@
 				F82F95681CBE3CD600857481 /* Assets.xcassets in Resources */,
 				F82F95BF1CBE432000857481 /* ProfileVC.xib in Resources */,
 				F82F95BB1CBE430E00857481 /* DiscoveryVC.xib in Resources */,
+				6BEC6F8C1CC1E1FE000E4A9F /* UnLoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,12 +548,15 @@
 			files = (
 				F82F95661CBE3CD600857481 /* weibo_swift.xcdatamodeld in Sources */,
 				F82F95B61CBE42FA00857481 /* MessageVC.swift in Sources */,
+				6BEC6F8A1CC1E1F0000E4A9F /* UnLoginView.swift in Sources */,
 				F82F95BE1CBE432000857481 /* ProfileVC.swift in Sources */,
 				F82F95B21CBE42E800857481 /* HomeVC.swift in Sources */,
+				F8230D9C1CC0E9F800C2FAD2 /* NullViewController.swift in Sources */,
 				F82F95AF1CBE429700857481 /* MainTabBarVC.swift in Sources */,
 				F82F955E1CBE3CD600857481 /* AppDelegate.swift in Sources */,
 				F82F95BA1CBE430E00857481 /* DiscoveryVC.swift in Sources */,
 				F82F95C11CBE447500857481 /* MainNavigationVC.swift in Sources */,
+				6BEC6F881CC1C9B6000E4A9F /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

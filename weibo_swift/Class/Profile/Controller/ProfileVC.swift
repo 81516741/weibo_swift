@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ProfileVC: UIViewController {
+class ProfileVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        unLoginView.setUnLoginView("visitordiscover_image_profile", message:  "登录后，你的微博、相册、个人资料会显示在这里，展示给别人", isHome: false)
+        
     }
 
 

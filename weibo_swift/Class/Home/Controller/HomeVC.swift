@@ -8,10 +8,11 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class HomeVC: BaseVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        unLoginView.setUnLoginView("visitordiscover_feed_image_house", message: "关注一些人，回这里看看有什么惊喜", isHome: true)
     }
 
 }
