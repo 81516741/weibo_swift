@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseVC: UIViewController,UnLoginViewDelegate
+class BaseVC: UIViewController
 {
     var isLogin = false
     
@@ -34,7 +34,10 @@ class BaseVC: UIViewController,UnLoginViewDelegate
     func addUnloginView(){
         
     }
-    
+}
+
+extension BaseVC : UnLoginViewDelegate
+{
     //MARK: - 代理方法
     func unLoginViewLoginBtnClick(){
         print("login did click")
@@ -43,6 +46,4 @@ class BaseVC: UIViewController,UnLoginViewDelegate
         print("register did click")
     }
     
-    
-
 }

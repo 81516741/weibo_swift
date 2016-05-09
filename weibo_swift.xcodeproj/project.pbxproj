@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B2314101CE0C2DC00811E03 /* TitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23140F1CE0C2DC00811E03 /* TitleBtn.swift */; };
+		6B2314141CE0C98500811E03 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2314131CE0C98500811E03 /* Extention.swift */; };
+		6B2314161CE0D7FE00811E03 /* PopSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2314151CE0D7FE00811E03 /* PopSB.storyboard */; };
+		6B2314181CE0D8DB00811E03 /* PopSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2314171CE0D8DB00811E03 /* PopSB.swift */; };
+		6B23141C1CE0DB3900811E03 /* PresentaionC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23141B1CE0DB3900811E03 /* PresentaionC.swift */; };
 		6BEC6F881CC1C9B6000E4A9F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC6F871CC1C9B6000E4A9F /* BaseVC.swift */; };
 		6BEC6F8A1CC1E1F0000E4A9F /* UnLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC6F891CC1E1F0000E4A9F /* UnLoginView.swift */; };
 		6BEC6F8C1CC1E1FE000E4A9F /* UnLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BEC6F8B1CC1E1FE000E4A9F /* UnLoginView.xib */; };
@@ -51,6 +56,11 @@
 /* Begin PBXFileReference section */
 		309CA01CD524C3BA952D2284 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6AAD0624518A63B3F4D27436 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6B23140F1CE0C2DC00811E03 /* TitleBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleBtn.swift; sourceTree = "<group>"; };
+		6B2314131CE0C98500811E03 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		6B2314151CE0D7FE00811E03 /* PopSB.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopSB.storyboard; sourceTree = "<group>"; };
+		6B2314171CE0D8DB00811E03 /* PopSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSB.swift; sourceTree = "<group>"; };
+		6B23141B1CE0DB3900811E03 /* PresentaionC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentaionC.swift; sourceTree = "<group>"; };
 		6BEC6F871CC1C9B6000E4A9F /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		6BEC6F891CC1E1F0000E4A9F /* UnLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnLoginView.swift; sourceTree = "<group>"; };
 		6BEC6F8B1CC1E1FE000E4A9F /* UnLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnLoginView.xib; sourceTree = "<group>"; };
@@ -194,6 +204,8 @@
 		F82F959B1CBE429700857481 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6B23140F1CE0C2DC00811E03 /* TitleBtn.swift */,
+				6B2314131CE0C98500811E03 /* Extention.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -246,6 +258,9 @@
 			children = (
 				F82F95B01CBE42E800857481 /* HomeVC.swift */,
 				F82F95B11CBE42E800857481 /* HomeVC.xib */,
+				6B2314151CE0D7FE00811E03 /* PopSB.storyboard */,
+				6B2314171CE0D8DB00811E03 /* PopSB.swift */,
+				6B23141B1CE0DB3900811E03 /* PresentaionC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -468,6 +483,7 @@
 			files = (
 				F82F95B71CBE42FA00857481 /* MessageVC.xib in Resources */,
 				F82F956B1CBE3CD600857481 /* LaunchScreen.storyboard in Resources */,
+				6B2314161CE0D7FE00811E03 /* PopSB.storyboard in Resources */,
 				F82F95C51CBE4DAE00857481 /* MainVCSettings.json in Resources */,
 				F82F95B31CBE42E800857481 /* HomeVC.xib in Resources */,
 				F82F95681CBE3CD600857481 /* Assets.xcassets in Resources */,
@@ -548,13 +564,17 @@
 			files = (
 				F82F95661CBE3CD600857481 /* weibo_swift.xcdatamodeld in Sources */,
 				F82F95B61CBE42FA00857481 /* MessageVC.swift in Sources */,
+				6B2314181CE0D8DB00811E03 /* PopSB.swift in Sources */,
 				6BEC6F8A1CC1E1F0000E4A9F /* UnLoginView.swift in Sources */,
+				6B2314101CE0C2DC00811E03 /* TitleBtn.swift in Sources */,
 				F82F95BE1CBE432000857481 /* ProfileVC.swift in Sources */,
 				F82F95B21CBE42E800857481 /* HomeVC.swift in Sources */,
 				F8230D9C1CC0E9F800C2FAD2 /* NullViewController.swift in Sources */,
 				F82F95AF1CBE429700857481 /* MainTabBarVC.swift in Sources */,
 				F82F955E1CBE3CD600857481 /* AppDelegate.swift in Sources */,
+				6B23141C1CE0DB3900811E03 /* PresentaionC.swift in Sources */,
 				F82F95BA1CBE430E00857481 /* DiscoveryVC.swift in Sources */,
+				6B2314141CE0C98500811E03 /* Extention.swift in Sources */,
 				F82F95C11CBE447500857481 /* MainNavigationVC.swift in Sources */,
 				6BEC6F881CC1C9B6000E4A9F /* BaseVC.swift in Sources */,
 			);
