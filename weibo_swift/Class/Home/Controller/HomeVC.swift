@@ -42,6 +42,7 @@ class HomeVC: BaseVC {
     func rightBtnClick() {
         print("rightBtnClick")
     }
+    
 }
 
 extension HomeVC:UIViewControllerTransitioningDelegate
